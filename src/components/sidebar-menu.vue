@@ -105,6 +105,12 @@ export default {
   width: 100%;
 }
 
+
+@media(max-width: 620px) {
+  .sidebar {
+    overflow-x: auto;
+  }
+}
 .sidebar-logo {
   max-width: 210px;
   margin: 30px auto 30px auto;
